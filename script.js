@@ -12,7 +12,7 @@ function squareEquation() {
  	} else if (d == 0) {
   	    x1 = ((-b) + Math.sqrt(d))/(2*a);
     } else 
-  	    x1= "D < 0, корней нет";
+  	    x1= "D < 0, no roots";
    	document.getElementById("result").innerHTML = x1;
 }
 document.getElementById("btnSubmit").onclick = squareEquation;
